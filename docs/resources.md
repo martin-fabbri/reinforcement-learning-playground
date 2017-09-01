@@ -7,6 +7,7 @@ Berkeley
 - UC Berkeley CS188 Intro to AI -- [http://ai.berkeley.edu/lecture_videos.html]
 - Simple Reinforcement Learning with Tensorflow -- [https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0]
 - TensorFlow Tutorial Reinforcement Learning -- [https://www.youtube.com/watch?v=Vz5l886eptw]
+- [https://github.com/dennybritz/reinforcement-learning]
 - https://www.youtube.com/watch?v=bHeeaXgqVig
 - https://www.youtube.com/watch?v=Ig0ekhtAfkY&list=PLTnAYbE3sS--_h8N7dTp9vm8MRT2m1IOD&index=5
 
