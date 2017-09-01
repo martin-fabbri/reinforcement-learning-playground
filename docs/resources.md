@@ -4,8 +4,9 @@
 Berkeley
 
 #### Prerequisites
-UC Berkeley CS188 Intro to AI -- [http://ai.berkeley.edu/lecture_videos.html]
-Simple Reinforcement Learning with Tensorflow -- [https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0]
+- UC Berkeley CS188 Intro to AI -- [http://ai.berkeley.edu/lecture_videos.html]
+- Simple Reinforcement Learning with Tensorflow -- [https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0]
+- TensorFlow Tutorial Reinforcement Learning -- [https://www.youtube.com/watch?v=Vz5l886eptw]
 
 #### Fall 2017 Term
 Course Site: [http://rll.berkeley.edu/deeprlcourse/]
