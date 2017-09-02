@@ -10,6 +10,9 @@ Berkeley
 - [https://github.com/dennybritz/reinforcement-learning]
 - https://www.youtube.com/watch?v=bHeeaXgqVig
 - https://www.youtube.com/watch?v=Ig0ekhtAfkY&list=PLTnAYbE3sS--_h8N7dTp9vm8MRT2m1IOD&index=5
+- http://selfdrivingcars.mit.edu/
+- https://github.com/aikorea/awesome-rl
+
 
 
 #### Fall 2017 Term
