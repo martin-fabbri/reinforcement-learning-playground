@@ -1,4 +1,5 @@
-
+### Books
+Reinforcement Learning: An Introduction -- [http://incompleteideas.net/sutton/book/the-book-2nd.html]
 
 ### CS294 - Deep Reinforcement Learning
 Berkeley
@@ -12,8 +13,6 @@ Berkeley
 - https://www.youtube.com/watch?v=Ig0ekhtAfkY&list=PLTnAYbE3sS--_h8N7dTp9vm8MRT2m1IOD&index=5
 - http://selfdrivingcars.mit.edu/
 - https://github.com/aikorea/awesome-rl
-
-
 
 #### Fall 2017 Term
 Course Site: [http://rll.berkeley.edu/deeprlcourse/]
