@@ -12,7 +12,10 @@
 - https://www.youtube.com/watch?v=Ig0ekhtAfkY&list=PLTnAYbE3sS--_h8N7dTp9vm8MRT2m1IOD&index=5
 - http://selfdrivingcars.mit.edu/
 - https://github.com/aikorea/awesome-rl
+
+## Repositories
 - Basic samples (explore) -- https://github.com/hunkim/ReinforcementZeroToAll
+- [RL with Tensorflow tutorials repository](MorvanZhou/Reinforcement-learning-with-tensorflow) - MorvanZhou 
 
 ### Courses
 
