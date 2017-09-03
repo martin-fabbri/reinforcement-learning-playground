@@ -15,7 +15,7 @@
 
 ## Repositories
 - Basic samples (explore) -- https://github.com/hunkim/ReinforcementZeroToAll
-- [RL with Tensorflow tutorials repository](MorvanZhou/Reinforcement-learning-with-tensorflow) - MorvanZhou 
+- [RL with Tensorflow tutorials repository](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow) - MorvanZhou 
 
 ### Courses
 
