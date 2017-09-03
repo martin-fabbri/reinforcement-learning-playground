@@ -15,7 +15,7 @@
 
 ### Courses
 
-##### CS4804 Intro to AI, Fall 2016
+##### VT CS4804 Intro to AI, Fall 2016
 
 [Video Lectures](https://www.youtube.com/watch?v=i-EtFuWHufc&list=PLUenpfvlyoa1iiSbGy9BBewgiXjzxVgBd) | [Course Site]( http://courses.cs.vt.edu/cs4804/)
 
