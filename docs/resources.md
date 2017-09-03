@@ -12,6 +12,7 @@
 - https://www.youtube.com/watch?v=Ig0ekhtAfkY&list=PLTnAYbE3sS--_h8N7dTp9vm8MRT2m1IOD&index=5
 - http://selfdrivingcars.mit.edu/
 - https://github.com/aikorea/awesome-rl
+- Basic samples (explore) -- https://github.com/hunkim/ReinforcementZeroToAll
 
 ### Courses
 
@@ -37,5 +38,8 @@ Berkeley
 
 [CS 294-129: Designing, Visualizing and Understanding Deep Neural Networks](https://bcourses.berkeley.edu/courses/1453965/)
 
+Additional Reading
 
+- [Counterfactual Multi-Agent Policy Gradients](https://channel9.msdn.com/Shows/Microsoft-Research/Counterfactual-Multi-Agent-Policy-Gradients) - Microsoft Research
+- [Policy Gradient Methods: Tutorial and New Frontiers](https://channel9.msdn.com/Shows/Microsoft-Research/Policy-Gradient-Methods-Tutorial-and-New-Frontiers) - Microsoft Research
 

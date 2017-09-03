@@ -29,6 +29,55 @@ What makes reinforcement learning different from other machine learning paradigm
 - Indicates how well the agent is doing at time t.
 - The agent's goal is to maximize the cumulative reward.
 
+### Inside an RL agent
+
+An RL agent might include one or more:
+
+- Policy. Agent's behavior function 
+- Value function. How good is each state and/or action
+- Model. Agent's representation of the environment
+
+###### Policy
+
+- A policy is the agent's behavior
+- It's a map from state to actions
+
+###### Value Function
+
+- Is a prediction of future reward
+- Used to evaluate the goodness/badness of states
+- **`How much reward we can get from one state onwards.`**
+
+###### Model
+
+- A model predict what the environment will do next
+- Transitions: P predicts the next state
+- Rewards: R predicts the next immediate reward
+
+###### Categorizing RL Agents
+
+- Value based
+  - No Policy (implicit)
+  - Value function
+- Policy based
+  - Policy
+  - No value function
+- Actor Critic
+  - Policy
+  - Value function
+- Model free
+  - Policy and/or value function
+  - No model
+- Model based
+  - Policy and/or value function
+  - Model
+
+### Problems within Reinforcement Learning
+
+- RL is like trial-and-error learning
+- The agent should discover a good policy
+- Exploration finds more information about the environment
+- Exploitation exploits know information to maximize reward
 
 ### Lectures and Readings
 
