@@ -28,6 +28,8 @@ def update():
             rl.learn(observation, action, reward, observation_, done)
 
             observation = observation_
+    print("---------- Q -------------")
+    print(rl.q)
 
 if __name__ == "__main__":
     env = MazeEnv()

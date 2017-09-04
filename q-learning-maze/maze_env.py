@@ -51,7 +51,7 @@ class MazeEnv:
             self.board_column += 1
             self.board.step(a)
 
-        state_ = self.board_row * MAZE_H + self.board_column * MAZE_W
+        state_ = self.board_row * MAZE_H + self.board_column
 
         done = False
         reward = 0
