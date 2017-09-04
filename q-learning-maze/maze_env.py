@@ -1,53 +1,78 @@
+"""
+Maze Env
+
+State               Description             Reward
+-----               -----------             ------
+h                   blackhole (fail)        -1
+t                   treasure (success)      +1
+g                   ground                  0
+"""
 import numpy as np
+import time
+from maze_board_ui import MazeBoard, MAZE_H, MAZE_W
+
+UP = 0
+DOWN = 1
+RIGHT = 2
+LEFT = 3
+
+MAP = np.array([
+    ["g", "g", "g", "g"],
+    ["g", "g", "h", "g"],
+    ["g", "h", "t", "g"],
+    ["g", "g", "g", "g"]
+])
 
 
-#https://github.com/openai/gym/blob/master/gym/spaces/prng.py
-np_random = np.random.RandomState()
-# TODO: CONTINUE ...https://github.com/openai/gym/blob/master/gym/spaces/prng.py
-
-
-class Space(object):
-    """Defines the observation and action spaces, so you can write generic
-    code that applies to any Env. For example, you can choose a random
-    action.
-    """
-
-    # TODO: CONTINUE ...https://github.com/openai/gym/blob/master/gym/spaces/prng.py
-    def seed(seed=None):
-        """Seed the common numpy.random.RandomState used in spaces
-        CF
-        https://github.com/openai/gym/commit/58e6aa95e5af2c738557431f812abb81c505a7cf#commitcomment-17669277
-        for some details about why we seed the spaces separately from the
-        envs, but tl;dr is that it's pretty uncommon for them to be used
-        within an actual algorithm, and the code becomes simpler to just
-        use this common numpy.random.RandomState.
-        """
-        np_random.seed(seed)
-
-    def sample(self):
-        """
-        Uniformly randomly sample a random element of this space
-        """
-        raise NotImplementedError
-
-    def contains(self, x):
-        """
-        Return boolean specifying if x is a valid
-        member of this space
-        """
-        raise NotImplementedError
-
-
-class MazeEnv(object):
+class MazeEnv:
     """Has the following members
     - nS: Number of states
     - nA: Number of actions
     - P: transitions
     """
-    def _init__(self, nS, nA, P):
-        self.P = P
-        self.last_action = None  # use for rendering
-        self.nS = nS
-        self.nA = nA
+    def __init__(self):
+        self.action_space = ['u', 'd', 'l', 'r']
+        self.n_actions = len(self.action_space)
+        self.board_row = 0
+        self.board_column = 0
+        self.board = MazeBoard()
 
-        self.action_space =
+    def step(self, a):
+        if a == UP and self.board_row != 0:
+            self.board_row -= 1
+            self.board.step(a)
+        elif a == DOWN and self.board_row != 3:
+            self.board_row += 1
+            self.board.step(a)
+        elif a == LEFT and self.board_column != 0:
+            self.board_column -= 1
+            self.board.step(a)
+        elif a == RIGHT and self.board_column != 3:
+            self.board_column += 1
+            self.board.step(a)
+
+        state_ = self.board_row * MAZE_H + self.board_column * MAZE_W
+
+        done = False
+        reward = 0
+
+        cell_type_ = MAP[self.board_row, self.board_column]
+        if cell_type_ == "t":
+            reward = 1
+            done = True
+        elif cell_type_ == "h":
+            reward = -1
+            done = True
+
+        return state_, reward, done
+
+    def reset(self):
+        self.board_row = 0
+        self.board_column = 0
+        self.board.reset()
+        return 0
+
+    def render(self):
+        time.sleep(0.1)
+        self.board.update()
+

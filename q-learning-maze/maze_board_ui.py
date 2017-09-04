@@ -21,11 +21,9 @@ MAZE_H = 4  # grid height
 MAZE_W = 4  # grid width
 
 
-class Maze(tk.Tk, object):
+class MazeBoard(tk.Tk, object):
     def __init__(self):
-        super(Maze, self).__init__()
-        self.action_space = ['u', 'd', 'l', 'r']
-        self.n_actions = len(self.action_space)
+        super(MazeBoard, self).__init__()
         self.title('maze')
         self.geometry('{0}x{1}'.format(MAZE_H * UNIT, MAZE_H * UNIT))
         self._build_maze()
@@ -124,18 +122,20 @@ class Maze(tk.Tk, object):
         time.sleep(0.1)
         self.update()
 
-
-def update():
-    for t in range(10):
-        s = env.reset()
-        while True:
-            env.render()
-            a = 1
-            s, r, done = env.step(a)
-            if done:
-                break
+    def reset(self):
+        self.update()
+        time.sleep(0.5)
+        self.canvas.delete(self.rect)
+        origin = np.array([20, 20])
+        self.rect = self.canvas.create_rectangle(
+            origin[0] - 15, origin[1] - 15,
+            origin[0] + 15, origin[1] + 15,
+            fill='red')
+        # return observation
+        return self.canvas.coords(self.rect)
 
 if __name__ == '__main__':
-    env = Maze()
-    env.after(100, update)
+    env = MazeBoard()
+    env.step(2)
+    # env.after(100, update)
     env.mainloop()
