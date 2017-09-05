@@ -1,6 +1,7 @@
 ## Books
 
-[Reinforcement Learning: An Introduction](http://incompleteideas.net/sutton/book/the-book-2nd.html)
+[Reinforcement Learning: An Introduction](http://incompleteideas.net/sutton/book/the-book-2nd.html). Richard S. Sutton 
+and Andrew G. Barto. Second Edition, 2017 ([Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction))
 
 ## Prerequisites
 
