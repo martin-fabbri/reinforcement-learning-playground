@@ -14,6 +14,6 @@
       0  & \quad \text{if }  \text{ the user didn't}
     \end{cases}
   $$
+  
 
 - Our goal is to maximize the total reward we get over many rounds.     
-
