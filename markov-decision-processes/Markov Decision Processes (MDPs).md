@@ -16,3 +16,4 @@
 - Understand what MDPs (Markov Decision Processes) are and how to interpret transition diagrams
 - Understand Value Functions, Action-Value Functions, and Policy Functions
 - Understand the Bellman Equations and Bellman Optimality Equations for value functions and action-value functions
+
