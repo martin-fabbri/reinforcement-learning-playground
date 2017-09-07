@@ -6,4 +6,6 @@
   and Andrew G. Barto. Second Edition, 2017 (Chapter 3)
 - UC Berkeley CS188 Intro to AI. [Spring 2014](http://ai.berkeley.edu/lecture_videos.html).
   - [Markov Decision Processes II](https://www.youtube.com/watch?v=6pBvbLyn6fE)
+- [David Silver's RL Course Lecture 2](https://www.youtube.com/watch?v=lfHX2hHRMVQ&t=1130s) - Introduction to Reinforcement Learning ([slides](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/MDP.pdf))
+
 
