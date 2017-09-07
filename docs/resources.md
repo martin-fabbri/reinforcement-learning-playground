@@ -1,9 +1,9 @@
-## Books
+### Books
 
 [Reinforcement Learning: An Introduction](http://incompleteideas.net/sutton/book/the-book-2nd.html). Richard S. Sutton 
 and Andrew G. Barto. Second Edition, 2017 ([Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction))
 
-## Prerequisites
+### Prerequisites
 
 - [UC Berkeley CS188 Intro to AI](http://ai.berkeley.edu/lecture_videos.html)
 - [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
@@ -11,10 +11,9 @@ and Andrew G. Barto. Second Edition, 2017 ([Code](https://github.com/ShangtongZh
 - [https://github.com/dennybritz/reinforcement-learning]
 - https://www.youtube.com/watch?v=bHeeaXgqVig
 - https://www.youtube.com/watch?v=Ig0ekhtAfkY&list=PLTnAYbE3sS--_h8N7dTp9vm8MRT2m1IOD&index=5
-- http://selfdrivingcars.mit.edu/
 - https://github.com/aikorea/awesome-rl
 
-## Repositories
+### Repositories
 - Basic samples (explore) -- https://github.com/hunkim/ReinforcementZeroToAll
 - [RL with Tensorflow tutorials repository](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow) - MorvanZhou 
 
@@ -26,23 +25,21 @@ and Andrew G. Barto. Second Edition, 2017 ([Code](https://github.com/ShangtongZh
 
 >  MDPs, Active & Passive RL
 
-##### CS294 - Deep Reinforcement Learning
+##### Berkeley CS294 - Deep Reinforcement Learning
 
-Berkeley
+[Fall 2017 Term](http://rll.berkeley.edu/deeprlcourse/)  |  [Fall 2017 Video Lectures](https://www.youtube.com/playlist?list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3)
 
-#### Fall 2017 Term
+##### Berkeley CS 294-129: Designing, Visualizing and Understanding Deep Neural Networks
 
-[Course Site](http://rll.berkeley.edu/deeprlcourse/)
+[Course Site](https://bcourses.berkeley.edu/courses/1453965/)
 
-[Video Lectures](https://www.youtube.com/playlist?list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3)
+##### MIT 6.S094: Deep Learning for Self-Driving Cars
 
-### Berkeley's Deep Learning
+[Course Site](http://selfdrivingcars.mit.edu/)
 
-[berkeley-deep-learning]
+> Lecture 2: Deep Reinforcement Learning for Motion Planning, [DeepTraffic](http://selfdrivingcars.mit.edu/deeptraffic)
 
-[CS 294-129: Designing, Visualizing and Understanding Deep Neural Networks](https://bcourses.berkeley.edu/courses/1453965/)
-
-Additional Reading
+### Additional Reading
 
 - [Counterfactual Multi-Agent Policy Gradients](https://channel9.msdn.com/Shows/Microsoft-Research/Counterfactual-Multi-Agent-Policy-Gradients) - Microsoft Research
 - [Policy Gradient Methods: Tutorial and New Frontiers](https://channel9.msdn.com/Shows/Microsoft-Research/Policy-Gradient-Methods-Tutorial-and-New-Frontiers) - Microsoft Research
