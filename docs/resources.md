@@ -7,15 +7,16 @@
 
 - [UC Berkeley CS188 Intro to AI](http://ai.berkeley.edu/lecture_videos.html)
 - [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
-- [TensorFlow Tutorial Reinforcement Learning](https://www.youtube.com/watch?v=Vz5l886eptw)
-- [https://github.com/dennybritz/reinforcement-learning]
 - https://www.youtube.com/watch?v=bHeeaXgqVig
 - https://www.youtube.com/watch?v=Ig0ekhtAfkY&list=PLTnAYbE3sS--_h8N7dTp9vm8MRT2m1IOD&index=5
 - https://github.com/aikorea/awesome-rl
 
 ### Repositories
 - Basic samples (explore) -- https://github.com/hunkim/ReinforcementZeroToAll
-- [RL with Tensorflow tutorials repository](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow) - MorvanZhou 
+- [RL with Tensorflow tutorials repository](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow) - MorvanZhou
+- [Reinforcement Learning Fundaments](https://github.com/dennybritz/reinforcement-learning) - dennybritz
+- [TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials) - Hvass-Labs
+> [TensorFlow Tutorial 16 Reinforcement Learning (Breakout)](https://www.youtube.com/watch?v=Vz5l886eptw)
 
 ### Courses
 
