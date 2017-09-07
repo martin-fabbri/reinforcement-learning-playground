@@ -8,6 +8,11 @@
   - [Markov Decision Processes II](https://www.youtube.com/watch?v=6pBvbLyn6fE)
 - [David Silver's RL Course Lecture 2](https://www.youtube.com/watch?v=lfHX2hHRMVQ&t=1130s) - Introduction to Reinforcement Learning ([slides](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/MDP.pdf))
 - Super Data Science - Machine Learning. 
-  - Module 1. [Section: 2 - Q-Learning Intuition](https://www.superdatascience.com/module-2/plan-of-attack-12/) 
+  - Module 1. [Section: 2 - Q-Learning Intuition](https://www.superdatascience.com/module-2/plan-of-attack-12/)
 
+### Learning Goals
 
+- Understand the Agent-Environment interface
+- Understand what MDPs (Markov Decision Processes) are and how to interpret transition diagrams
+- Understand Value Functions, Action-Value Functions, and Policy Functions
+- Understand the Bellman Equations and Bellman Optimality Equations for value functions and action-value functions
