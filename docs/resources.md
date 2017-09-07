@@ -1,7 +1,7 @@
 ### Books
 
 - [Reinforcement Learning: An Introduction](http://incompleteideas.net/sutton/book/the-book-2nd.html). Richard S. Sutton 
-and Andrew G. Barto. Second Edition, 2017 ([Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction))
+  and Andrew G. Barto. Second Edition, 2017 ([Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction))
 
 ### Prerequisites
 
@@ -38,6 +38,12 @@ and Andrew G. Barto. Second Edition, 2017 ([Code](https://github.com/ShangtongZh
 [Course Site](http://selfdrivingcars.mit.edu/)
 
 > Lecture 2: Deep Reinforcement Learning for Motion Planning, [DeepTraffic](http://selfdrivingcars.mit.edu/deeptraffic)
+
+##### Super Data Science - Machine Learning
+
+[Course Site](https://www.superdatascience.com/courses/artificial-intelligence/)  |  [Code](https://www.superdatascience.com/artificial-intelligence/) 
+
+> Self-Driving Cars, Doom, Breakout
 
 ### Additional Reading
 
