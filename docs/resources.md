@@ -1,7 +1,8 @@
 ### Books
 
 - [Reinforcement Learning: An Introduction](http://incompleteideas.net/sutton/book/the-book-2nd.html). Richard S. Sutton 
-  and Andrew G. Barto. Second Edition, 2017 ([Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction))
+  and Andrew G. Barto. Second Edition, 2017 
+>[Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)  |  [Excersice Solutions](http://fumblog.um.ac.ir/gallery/839/weatherwax_sutton_solutions_manual.pdf)
 
 ### Prerequisites
 
