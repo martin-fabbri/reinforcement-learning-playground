@@ -9,7 +9,6 @@
 - [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 - https://www.youtube.com/watch?v=bHeeaXgqVig
 - https://www.youtube.com/watch?v=Ig0ekhtAfkY&list=PLTnAYbE3sS--_h8N7dTp9vm8MRT2m1IOD&index=5
-- https://github.com/aikorea/awesome-rl
 
 ### Repositories
 - Basic samples (explore) -- https://github.com/hunkim/ReinforcementZeroToAll
@@ -17,6 +16,8 @@
 - [Reinforcement Learning Fundaments](https://github.com/dennybritz/reinforcement-learning) - dennybritz
 - [TensorFlow-Tutorials](https://github.com/Hvass-Labs/TensorFlow-Tutorials) - Hvass-Labs
 > [TensorFlow Tutorial 16 Reinforcement Learning (Breakout)](https://www.youtube.com/watch?v=Vz5l886eptw)
+- [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl) - aikorea 
+> Comprehensive list of resources for RL
 
 ### Courses
 
