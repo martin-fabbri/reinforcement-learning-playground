@@ -78,6 +78,7 @@ def show_q():
                            alpha=.6))
     plt.show()
 
+
 def show_traverse():
     # show all the greedy traversals
     for i in range(len(q)):
@@ -94,6 +95,7 @@ def show_traverse():
         print("Greedy traversal for starting state %i" % i)
         print(traverse)
         print("")
+
 
 def update_q(state, next_state, action, alpha, gamma):
     rsa = r[state, action]

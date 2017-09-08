@@ -9,6 +9,8 @@
 - [David Silver's RL Course Lecture 2](https://www.youtube.com/watch?v=lfHX2hHRMVQ&t=1130s) - Introduction to Reinforcement Learning ([slides](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/MDP.pdf))
 - Super Data Science - Machine Learning. 
   - Module 1. [Section: 2 - Q-Learning Intuition](https://www.superdatascience.com/module-2/plan-of-attack-12/)
+- [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
+
 
 ### Learning Goals
 
