@@ -17,3 +17,7 @@
 - Understand Value Functions, Action-Value Functions, and Policy Functions
 - Understand the Bellman Equations and Bellman Optimality Equations for value functions and action-value functions
 
+
+### Introduction to MDPs
+
+Markov decision 
